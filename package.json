@@ -1,0 +1,30 @@
+{
+  "name": "daytoy-cli",
+  "version": "1.0.0",
+  "description": "实现一个脚手架，提高开发效率",
+  "main": "index.js",
+  "bin": "/bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daytoywhy/fast-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daytoywhy/fast-cli/issues"
+  },
+  "homepage": "https://github.com/daytoywhy/fast-cli#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^12.0.0",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.2.0",
+    "git-clone": "^0.2.0",
+    "inquirer": "^8.0.0",
+    "ora": "^5.0.0"
+  }
+}
